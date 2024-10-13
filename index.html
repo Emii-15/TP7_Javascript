@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Javascript</title>
+    <style>
+        input[type="text"]:disabled {
+            background-color: #f0f0f0;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Este es el tercer párrafo.</p>
+
+    <button id="cambiarColorBtn">Cambiar Color a Azul</button>
+
+    <form id="miFormulario">
+        <label for="miCampoTexto">Ingresa tu nombre:</label>
+        <input type="text" id="miCampoTexto" name="miCampoTexto">
+        <button type="button" id="miBoton">Enviar</button>
+    </form>
+
+
+    <h3>1. Lista con elementos </h3>
+    <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <input type="text" id="miCampoTexto" placeholder="Ingresa algo">
+    <button id="deshabilitarBtn">Deshabilitar</button>
+    <button id="habilitarBtn">Habilitar</button>
+
+
+    <form id="emailForm">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+        <button type="submit">Guardar</button>
+    </form>
+    <div id="emailDisplay"></div>
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
